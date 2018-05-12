@@ -1,0 +1,26 @@
+.periodic-input {
+   display: block;
+   margin: 0;
+   width: 65%;
+   color: black;
+   font-family: sans-serif;
+   font-size: 30px;
+   box-shadow: none;
+   border-radius: none;
+   text-align: center;
+   padding: 16px;
+   border: none;
+   border-bottom: solid 2px #c9c9c9;
+   transition: border 0.3s;
+   background-color: #fafafa;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   margin: 0 auto;
+}
+.periodic-input:focus {
+   outline: none;
+}
+.periodic-input:focus,
+.periodic-input.focus {
+   border-bottom: solid 2px #969696;
+}
